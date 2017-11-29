@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ListViewAdvance</string>
+    <string-array name="arrSinger">
+        <item>Lưu Minh Tài Smile</item>
+        <item>Lệ Rơi</item>
+        <item>Lệ Rơi</item>
+        <item>Thánh Sò</item>
+        <item>Hương Tràm</item>
+    </string-array>
+
+    <string-array name="arrTitle">
+        <item>Lạc trôi Bolero</item>
+        <item>Nắng ấm xa dần</item>
+        <item>Em của ngày hôm qua</item>
+        <item>Oh My Sò</item>
+        <item>Em gái mưa</item>
+    </string-array>
+
+    <string-array name="arrCode">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+    </string-array>
+
+    <string-array name="arrTime">
+        <item>01:01</item>
+    </string-array>
+
+    <array name="arrImage">
+        <item>@drawable/leroi</item>
+    </array>
+
+
+
+</resources>
