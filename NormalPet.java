@@ -1,5 +1,6 @@
 
 public class NormalPet implements Pet {
+	
 	int id;
 	static int score = -1;
 	
@@ -20,6 +21,7 @@ public class NormalPet implements Pet {
 
 
 	@Override
+	
 	public int  checkMatch (int id2) {
 		
 		if (this.id == id2)
@@ -31,9 +33,14 @@ public class NormalPet implements Pet {
 	public int explode ( int id2, int id3) {
 		if (this.checkMatch(id2)== 1 && this.checkMatch(id3)==1) {
 			score +=1;
+			this.crush(this.id);
 			return 1;
 		}
 		return -1;
 	}
-	
+	 public int crush(int id) {
+		 this.id = 100;
+		 return this.id;
+	 }
+	 
 }
