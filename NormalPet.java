@@ -1,7 +1,7 @@
 
 public class NormalPet implements Pet {
 	int id;
-	static int score = 0;
+	static int score = -1;
 	
 	public NormalPet(int id) {
 		super();
@@ -24,22 +24,16 @@ public class NormalPet implements Pet {
 		
 		if (this.id == id2)
 			return 1;
-		else return 0;
+		else return -1;
 	}
 
 	@Override
 	public int explode ( int id2, int id3) {
 		if (this.checkMatch(id2)== 1 && this.checkMatch(id3)==1) {
-			score +=10;
+			score +=1;
 			return 1;
 		}
-		return 0;
-	}
-	
-	
-	@Override
-	public int born() {
-		return this.id;
+		return -1;
 	}
 	
 }
