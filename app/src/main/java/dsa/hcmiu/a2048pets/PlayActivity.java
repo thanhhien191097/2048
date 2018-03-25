@@ -60,7 +60,7 @@ public class PlayActivity extends Activity {
             arrId[i] = i;
         }
 
-        //set item for gridlayout
+        //set item for layout
         if (arrPets == null) arrPets = new ArrayList<>();
         for (int i = 0; i < 6; i++) {
             int count = 0;
