@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">2048 Pets</string>
+
+    <array name="arrNo">
+        <item>no2</item>
+        <item>no4</item>
+        <item>no8</item>
+        <item>no16</item>
+        <item>no32</item>
+        <item>no64</item>
+        <item>no128</item>
+        <item>no256</item>
+        <item>no512</item>
+        <item>no1024</item>
+        <item>no2048</item>
+        <item>no4096</item>
+        <item>no8192</item>
+    </array>
+
+    <array name="arrImage">
+        <item>@raw/no2</item>
+        <item>@raw/no4</item>
+        <item>@raw/no8</item>
+        <item>@raw/no16</item>
+        <item>@raw/no32</item>
+        <item>@raw/no64</item>
+        <item>@raw/no128</item>
+        <item>@raw/no256</item>
+        <item>@raw/no512</item>
+        <item>@raw/no1024</item>
+        <item>@raw/no2048</item>
+        <item>@raw/no4096</item>
+        <item>@raw/no8192</item>
+    </array>
+
+</resources>
