@@ -14,8 +14,12 @@
           <option name="url" value="git@github.com:suhymin97/2048Pets.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/codexpedia/android_storage_picasso_image.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\AndroidLesson\2048check" />
+    <option name="cloneParentDir" value="D:\Onedrive\Documents\InternationalSchool\DSA\Test" />
   </component>
 </application>
