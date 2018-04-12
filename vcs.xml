@@ -22,6 +22,10 @@
           <option name="url" value="https://github.com/suhymin97/TextViewLession.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/DroidNinja/SocialLoginIntegrationAndroid.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\Onedrive\Documents\InternationalSchool\DSA\Test" />
